@@ -1,4 +1,5 @@
 # key point
+guide
 - session & auth
 - logging
 - web server
