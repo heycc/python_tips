@@ -1,0 +1,13 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+enabled: false
+flag: enableTutorial
+conditions:
+  - value:
+      - percentage: 10
+        option: true
+  - version:
+      operator: semver-eq
+      semver: 1.0.2
+    value: true
+value: false
