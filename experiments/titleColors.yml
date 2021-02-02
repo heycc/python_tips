@@ -5,3 +5,11 @@ availableValues:
   - Yellow
   - Green
   - Blue
+conditions:
+  - value:
+      - percentage: 33
+        option: Yellow
+      - percentage: 33
+        option: Green
+      - percentage: 34
+        option: Blue
