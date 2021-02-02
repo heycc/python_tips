@@ -5,6 +5,7 @@ availableValues:
   - Yellow
   - Green
   - Blue
+  - White
 conditions:
   - value:
       - percentage: 33
@@ -13,3 +14,4 @@ conditions:
         option: Green
       - percentage: 34
         option: Blue
+value: Yellow
