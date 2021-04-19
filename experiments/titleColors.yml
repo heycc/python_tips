@@ -8,6 +8,21 @@ availableValues:
   - White
 conditions:
   - value:
+      - percentage: 25
+        option: Yellow
+      - percentage: 25
+        option: Green
+      - percentage: 25
+        option: Blue
+      - percentage: 25
+        option: White
+  - version:
+      operator: semver-gte
+      semver: '1'
+    dependency:
+      flag: enableTutorial
+      value: 'false'
+    value:
       - percentage: 33
         option: Yellow
       - percentage: 33
