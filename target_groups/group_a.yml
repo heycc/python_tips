@@ -1,5 +1,6 @@
 type: target-group
 name: group_a
+description: group_a desc
 conditions:
   - operator: in-array
     property: tag_district
