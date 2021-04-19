@@ -1,0 +1,11 @@
+type: target-group
+name: group_a
+conditions:
+  - operator: in-array
+    property: tag_district
+    operand:
+      - SZ
+      - SH
+  - operator: eq
+    property: network_op
+    operand: 1
